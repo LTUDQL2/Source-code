@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO.csproj", "{B4861171-CE4C-4BB4-A7A9-0EC6A8850E45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUS", "..\BUS\BUS.csproj", "{078DDE08-2767-462C-8846-AD3EDFAF0143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "..\DTO\DTO.csproj", "{8E12C6F6-C763-4FE0-9428-E9CD39202318}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4861171-CE4C-4BB4-A7A9-0EC6A8850E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4861171-CE4C-4BB4-A7A9-0EC6A8850E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4861171-CE4C-4BB4-A7A9-0EC6A8850E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4861171-CE4C-4BB4-A7A9-0EC6A8850E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{078DDE08-2767-462C-8846-AD3EDFAF0143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078DDE08-2767-462C-8846-AD3EDFAF0143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078DDE08-2767-462C-8846-AD3EDFAF0143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078DDE08-2767-462C-8846-AD3EDFAF0143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E12C6F6-C763-4FE0-9428-E9CD39202318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E12C6F6-C763-4FE0-9428-E9CD39202318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E12C6F6-C763-4FE0-9428-E9CD39202318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E12C6F6-C763-4FE0-9428-E9CD39202318}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

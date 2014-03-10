@@ -1,0 +1,11 @@
+C:\Users\kvhgiang\Documents\GitHub\Source-code\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\kvhgiang\Documents\GitHub\Source-code\BUS\obj\Debug\BUS.Properties.Resources.resources
+C:\Users\kvhgiang\Documents\GitHub\Source-code\BUS\obj\Debug\BUS.csproj.GenerateResource.Cache
+C:\Users\kvhgiang\Documents\GitHub\Source-code\BUS\bin\Debug\BUS.dll
+C:\Users\kvhgiang\Documents\GitHub\Source-code\BUS\bin\Debug\BUS.pdb
+C:\Users\kvhgiang\Documents\GitHub\Source-code\BUS\bin\Debug\DAO.dll
+C:\Users\kvhgiang\Documents\GitHub\Source-code\BUS\bin\Debug\DTO.dll
+C:\Users\kvhgiang\Documents\GitHub\Source-code\BUS\bin\Debug\DAO.pdb
+C:\Users\kvhgiang\Documents\GitHub\Source-code\BUS\bin\Debug\DTO.pdb
+C:\Users\kvhgiang\Documents\GitHub\Source-code\BUS\obj\Debug\BUS.dll
+C:\Users\kvhgiang\Documents\GitHub\Source-code\BUS\obj\Debug\BUS.pdb
