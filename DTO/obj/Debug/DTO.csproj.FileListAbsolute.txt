@@ -1,5 +1,0 @@
-C:\Users\kvhgiang\Documents\GitHub\Source-code\DTO\bin\Debug\DTO.dll
-C:\Users\kvhgiang\Documents\GitHub\Source-code\DTO\bin\Debug\DTO.pdb
-C:\Users\kvhgiang\Documents\GitHub\Source-code\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
-C:\Users\kvhgiang\Documents\GitHub\Source-code\DTO\obj\Debug\DTO.dll
-C:\Users\kvhgiang\Documents\GitHub\Source-code\DTO\obj\Debug\DTO.pdb

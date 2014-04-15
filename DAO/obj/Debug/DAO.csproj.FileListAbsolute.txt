@@ -1,7 +1,0 @@
-C:\Users\kvhgiang\Documents\GitHub\Source-code\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
-C:\Users\kvhgiang\Documents\GitHub\Source-code\DAO\bin\Debug\DAO.dll
-C:\Users\kvhgiang\Documents\GitHub\Source-code\DAO\bin\Debug\DAO.pdb
-C:\Users\kvhgiang\Documents\GitHub\Source-code\DAO\bin\Debug\DTO.dll
-C:\Users\kvhgiang\Documents\GitHub\Source-code\DAO\bin\Debug\DTO.pdb
-C:\Users\kvhgiang\Documents\GitHub\Source-code\DAO\obj\Debug\DAO.dll
-C:\Users\kvhgiang\Documents\GitHub\Source-code\DAO\obj\Debug\DAO.pdb
