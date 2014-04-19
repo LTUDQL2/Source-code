@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WSTheRich.TheRichForm
+namespace TheRich.TheRichForm
 {
     public partial class LoaiSanPham : System.Web.UI.Page
     {

@@ -8,5 +8,8 @@ namespace DAO
 {
     class NhaCungCap_DAO
     {
+        public void XemDS_NCC() { 
+
+        }
     }
 }
