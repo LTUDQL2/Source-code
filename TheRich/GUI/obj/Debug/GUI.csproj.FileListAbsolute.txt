@@ -31,3 +31,9 @@ C:\Users\kvhgiang\Documents\GitHub\Source-code\TheRich\GUI\bin\Microsoft.AspNet.
 C:\Users\kvhgiang\Documents\GitHub\Source-code\TheRich\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
 C:\Users\kvhgiang\Documents\GitHub\Source-code\TheRich\GUI\obj\Debug\GUI.dll
 C:\Users\kvhgiang\Documents\GitHub\Source-code\TheRich\GUI\obj\Debug\GUI.pdb
+C:\Users\kvhgiang\Documents\GitHub\Source-code\TheRich\GUI\bin\BUS.dll
+C:\Users\kvhgiang\Documents\GitHub\Source-code\TheRich\GUI\bin\DTO.dll
+C:\Users\kvhgiang\Documents\GitHub\Source-code\TheRich\GUI\bin\DAO.dll
+C:\Users\kvhgiang\Documents\GitHub\Source-code\TheRich\GUI\bin\BUS.pdb
+C:\Users\kvhgiang\Documents\GitHub\Source-code\TheRich\GUI\bin\DTO.pdb
+C:\Users\kvhgiang\Documents\GitHub\Source-code\TheRich\GUI\bin\DAO.pdb

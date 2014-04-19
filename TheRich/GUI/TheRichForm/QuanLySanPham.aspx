@@ -29,18 +29,7 @@
         .auto-style10 {
             width: 235px;
         }
-        .auto-style11 {
-            width: 301px;
-            height: 23px;
-        }
-        .auto-style12 {
-            height: 23px;
-        }
         .auto-style13 {
-            width: 35px;
-        }
-        .auto-style14 {
-            height: 23px;
             width: 35px;
         }
         </style>
@@ -108,11 +97,9 @@
                 <asp:TextBox ID="TextBoxGiaLe" runat="server" Width="172px"></asp:TextBox>
                 </div></td>
 
-               <td class="auto-style10"><div align="Left" class="boiden">Người Dùng:</div></td>
+               <td class="auto-style10">&nbsp;</td>
             <td class="auto-style9">
-                <asp:DropDownList ID="DropDownListND" runat="server" Height="16px" Width="172px">
-                </asp:DropDownList>
-              </td>
+                &nbsp;</td>
             <td class="auto-style13">
                 &nbsp;</td>
    </tr>
@@ -180,33 +167,39 @@
                   &nbsp;</td>
 
               <td colspan="6">
-								<asp:GridView ID="GridViewQuanLySanPham" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" Height="156px" Width="985px">
-                                    <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+								<asp:GridView ID="GridViewQuanLySanPham" runat="server" AutoGenerateColumns="False" CellPadding="3" ForeColor="Black" GridLines="Vertical" Height="156px" Width="985px" AllowPaging="True" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" OnPageIndexChanging="GridViewQuanLySanPham_PageIndexChanging" PageSize="2" OnRowDeleted="GridViewQuanLySanPham_RowDeleted" OnRowDeleting="GridViewQuanLySanPham_RowDeleting" OnRowUpdating="GridViewQuanLySanPham_RowUpdating">
+                                    <AlternatingRowStyle BackColor="#CCCCCC" />
                                     <Columns>
-                                        <asp:BoundField HeaderText="Mã Sản Phẩm" />
-                                        <asp:BoundField HeaderText="Tên Sản Phẩm" />
-                                        <asp:BoundField HeaderText="Đơn Vị Tính" />
-                                        <asp:BoundField HeaderText="Số Lượng Tồn" />
-                                        <asp:BoundField HeaderText="Giá Mua" />
-                                        <asp:BoundField HeaderText="Giá Sỉ" />
-                                        <asp:BoundField HeaderText="Giá Lẻ" />
-                                        <asp:BoundField HeaderText="Tỉ Lệ Giảm" />
-                                        <asp:BoundField HeaderText="Loại Sản Phẩm" />
-                                        <asp:BoundField HeaderText="Nhà Cung Cấp" />
-                                        <asp:BoundField HeaderText="Người Dùng" />
+                                        <asp:BoundField HeaderText="Mã Sản Phẩm" DataField="MaSP" />
+                                        <asp:BoundField HeaderText="Tên Sản Phẩm" DataField="TenSP" />
+                                        <asp:BoundField HeaderText="Đơn Vị Tính" DataField="DonViTinh" />
+                                        <asp:BoundField HeaderText="Số Lượng Tồn" DataField="SLTon" />
+                                        <asp:BoundField HeaderText="Giá Mua" DataField="GiaNhap" />
+                                        <asp:BoundField HeaderText="Giá Sỉ" DataField="GiaSi" />
+                                        <asp:BoundField HeaderText="Giá Lẻ" DataField="GiaLe" />
+                                        <asp:BoundField HeaderText="Tỉ Lệ Giảm" DataField="TiLeGiam" />
+                                        <asp:BoundField HeaderText="Loại Sản Phẩm" DataField="id_LSP" />
+                                        <asp:BoundField HeaderText="Nhà Cung Cấp" DataField="id_NCC" />
                                         <asp:CheckBoxField HeaderText="Chọn" />
                                     </Columns>
-                                    <EditRowStyle BackColor="#999999" />
-                                    <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
-                                    <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
-                                    <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
-                                    <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
-                                    <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
-                                    <SortedAscendingCellStyle BackColor="#E9E7E2" />
-                                    <SortedAscendingHeaderStyle BackColor="#506C8C" />
-                                    <SortedDescendingCellStyle BackColor="#FFFDF8" />
-                                    <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
+                                    <EmptyDataTemplate>
+                                        <asp:LinkButton ID="LinkButton1" runat="server" CommandArgument='<%#DataBinder.Eval(Container.DataItem, "MaSP") %>' CommandName="Update">Sua</asp:LinkButton>
+                                        <asp:LinkButton ID="LinkButton2" runat="server"
+                                            CommandArgument='<%#DataBinder.Eval(Container.DataItem, "MaSP") %>' CommandName="Delete">Xoa</asp:LinkButton>
+                                    </EmptyDataTemplate>
+                                    <FooterStyle BackColor="#CCCCCC" />
+                                    <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
+                                    <PagerSettings FirstPageText="First" LastPageText="Last" NextPageText="Next" Position="TopAndBottom" PreviousPageText="Pre" />
+                                    <PagerStyle BackColor="#CCCCCC" ForeColor="Black" HorizontalAlign="Right" />
+                                    <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+                                    <SortedAscendingCellStyle BackColor="#F1F1F1" />
+                                    <SortedAscendingHeaderStyle BackColor="#808080" />
+                                    <SortedDescendingCellStyle BackColor="#CAC9C9" />
+                                    <SortedDescendingHeaderStyle BackColor="#383838" />
                                 </asp:GridView>
+
+                                <br />
+                                <asp:Literal ID="Literal1" runat="server"></asp:Literal>
 
              </td>
 

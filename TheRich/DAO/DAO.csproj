@@ -52,6 +52,12 @@
     <Compile Include="SPKhuyenMai_DAO.cs" />
     <Compile Include="ThuChi_DAO.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{5567ccd3-4d74-40e6-bf18-8802f2fa1e51}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
