@@ -39,8 +39,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SanPham.cs" />
+    <Compile Include="CTHoaDon_BUS.cs" />
+    <Compile Include="DiemTichLuy_BUS.cs" />
+    <Compile Include="HoaDon_BUS.cs" />
+    <Compile Include="KhachHang_BUS.cs" />
+    <Compile Include="LoaiSP_BUS.cs" />
+    <Compile Include="NguoiDung_BUS.cs" />
+    <Compile Include="NhaCungCap_BUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SanPham_BUS.cs" />
+    <Compile Include="SPKhuyenMai_BUS.cs" />
+    <Compile Include="ThuChi_BUS.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
