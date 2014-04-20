@@ -3,10 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DAO;
+using System.Data;
 
-namespace DAO
+namespace BUS
 {
-    class NhaCungCap_DAO
+    public class NhaCungCap_BUS
     {
+        public static DataTable SelectAllData()
+        {
+            return NhaCungCap_DAO.SelectAllData("NhaCungCap");
+        }
     }
 }

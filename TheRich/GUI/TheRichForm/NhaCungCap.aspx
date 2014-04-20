@@ -288,9 +288,9 @@
                 <asp:GridView ID="GridViewNhaCungCap" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" Height="109px" Width="785px">
                     <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
                     <Columns>
-                        <asp:BoundField HeaderText="Tên Nhà Cung Cấp" />
-                        <asp:BoundField HeaderText="Địa Chỉ" />
-                        <asp:BoundField HeaderText="Số Điện Thoại" />
+                        <asp:BoundField HeaderText="Tên Nhà Cung Cấp" DataField="TenNCC" />
+                        <asp:BoundField HeaderText="Địa Chỉ" DataField="DiaChi" />
+                        <asp:BoundField HeaderText="Số Điện Thoại" DataField="Sdt" />
                         <asp:CheckBoxField HeaderText="Chọn" />
                     </Columns>
                     <EditRowStyle BackColor="#999999" />

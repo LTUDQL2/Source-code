@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAO
 {
-    class LoaiSP_DAO
+    public class LoaiSP_DAO
     {
     }
 }

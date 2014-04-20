@@ -128,12 +128,12 @@
                     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" Width="892px">
                         <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
                         <Columns>
-                            <asp:BoundField HeaderText="Họ Tên" />
-                            <asp:BoundField HeaderText="Ngày Sinh" />
-                            <asp:BoundField HeaderText="Giới Tính" />
-                            <asp:BoundField HeaderText="Địa Chỉ" />
-                            <asp:BoundField HeaderText="Số Điện Thoai" />
-                            <asp:BoundField HeaderText="Điểm Tích Lũy" />
+                            <asp:BoundField HeaderText="Họ Tên" DataField="HoTen" />
+                            <asp:BoundField HeaderText="Ngày Sinh" DataField="NgaySinh" />
+                            <asp:BoundField HeaderText="Giới Tính" DataField="GioiTinh" />
+                            <asp:BoundField HeaderText="Địa Chỉ" DataField="DiaChi" />
+                            <asp:BoundField HeaderText="Số Điện Thoai" DataField="Sdt" />
+                            <asp:BoundField HeaderText="Điểm Tích Lũy" DataField="DiemTichLuy" />
                             <asp:CheckBoxField HeaderText="Chọn" />
                         </Columns>
                         <EditRowStyle BackColor="#999999" />

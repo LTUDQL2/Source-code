@@ -11,7 +11,7 @@ namespace DAO
 {
     public class SanPham_DAO
     {
-        public static DataTable GetDataTabel()
+        public static DataTable GetDataTable()
         {
             string commandText = "SelectSanPham";
             DataProvider dataProvider = new DataProvider();

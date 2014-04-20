@@ -43,5 +43,17 @@ namespace DAO
             da.Fill(dt);
             return dt;
         }
+
+        public DataTable SelectAllData(string table)
+        {
+            commentText = "Select * from " + table;
+            SqlConnection conn = ConnectionData();
+            SqlCommand sqlCOmmand = new SqlCommand(commentText, conn);
+            sqlCOmmand.CommandType = this.commandType;
+            SqlDataAdapter da = new SqlDataAdapter(sqlCOmmand);
+            DataTable dt = new System.Data.DataTable();
+            da.Fill(dt);
+            return dt;
+        }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAO
 {
-    class ThuChi_DAO
+    public class ThuChi_DAO
     {
     }
 }

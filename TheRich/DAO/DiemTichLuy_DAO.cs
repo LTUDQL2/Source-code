@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAO
 {
-    class DiemTichLuy_DAO
+    public class DiemTichLuy_DAO
     {
     }
 }

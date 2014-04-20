@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAO
 {
-    class CTHoaDon_DAO
+    public class CTHoaDon_DAO
     {
     }
 }

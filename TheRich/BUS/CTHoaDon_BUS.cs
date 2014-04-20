@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DAO;
 
-namespace DAO
+namespace BUS
 {
-    class CTHoaDon_DAO
+    public class CTHoaDon_BUS
     {
     }
 }

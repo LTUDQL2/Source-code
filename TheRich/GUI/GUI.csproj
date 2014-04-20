@@ -237,6 +237,7 @@
     <Content Include="TheRichForm\ManHinhBanHang.aspx" />
     <Content Include="TheRichForm\NguoiDung.aspx" />
     <Content Include="TheRichForm\NhaCungCap.aspx" />
+    <Content Include="TheRichForm\NhanVien.aspx" />
     <Content Include="TheRichForm\NhapHang.aspx" />
     <Content Include="TheRichForm\QuanLySanPham.aspx" />
     <Content Include="TheRichForm\QuanLyThuChi.aspx" />
@@ -375,6 +376,13 @@
     </Compile>
     <Compile Include="TheRichForm\NhaCungCap.aspx.designer.cs">
       <DependentUpon>NhaCungCap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheRichForm\NhanVien.aspx.cs">
+      <DependentUpon>NhanVien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheRichForm\NhanVien.aspx.designer.cs">
+      <DependentUpon>NhanVien.aspx</DependentUpon>
     </Compile>
     <Compile Include="TheRichForm\NhapHang.aspx.cs">
       <DependentUpon>NhapHang.aspx</DependentUpon>

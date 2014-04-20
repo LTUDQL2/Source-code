@@ -3,10 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DAO;
+using System.Data;
 
-namespace DAO
+namespace BUS
 {
-    class KhachHang_DAO
+    public class KhachHang_BUS
     {
+        public static DataTable SelectAllData()
+        {
+            return KhachHang_DAO.SelectAllData("KhachHang");
+        }
     }
 }

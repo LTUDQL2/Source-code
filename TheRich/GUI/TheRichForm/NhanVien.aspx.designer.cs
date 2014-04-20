@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TheRich.TheRichForm {
+namespace GUI.TheRichForm {
     
     
-    public partial class NguoiDung {
+    public partial class NhanVien {
         
         /// <summary>
         /// form1 control.
@@ -22,31 +22,31 @@ namespace TheRich.TheRichForm {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// TextBoxHoTen control.
+        /// txtHoTen_NV control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxHoTen;
+        protected global::System.Web.UI.WebControls.TextBox txtHoTen_NV;
         
         /// <summary>
-        /// TextBoxTenCuaHang control.
+        /// txtCMND_NV control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxTenCuaHang;
+        protected global::System.Web.UI.WebControls.TextBox txtCMND_NV;
         
         /// <summary>
-        /// TextBoxEmail control.
+        /// txtEmail_NV control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxEmail;
+        protected global::System.Web.UI.WebControls.TextBox txtEmail_NV;
         
         /// <summary>
         /// TextBox1 control.
@@ -58,85 +58,40 @@ namespace TheRich.TheRichForm {
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
         
         /// <summary>
-        /// TextBoxSoDienThoai control.
+        /// TextBoxHoTenNhanVien1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxSoDienThoai;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxHoTenNhanVien1;
         
         /// <summary>
-        /// TextBoxTenTenDangNhap control.
+        /// ThemNV control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxTenTenDangNhap;
+        protected global::System.Web.UI.WebControls.Button ThemNV;
         
         /// <summary>
-        /// TextBoxChungMinhNhanDan control.
+        /// XoaNV control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxChungMinhNhanDan;
+        protected global::System.Web.UI.WebControls.Button XoaNV;
         
         /// <summary>
-        /// DropDownList1 control.
+        /// SuaNV control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
-        
-        /// <summary>
-        /// TextBox2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
-        
-        /// <summary>
-        /// DropDownList2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
-        
-        /// <summary>
-        /// ButtonThemNguoiDung control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonThemNguoiDung;
-        
-        /// <summary>
-        /// ButtonXoaNguoiDung control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonXoaNguoiDung;
-        
-        /// <summary>
-        /// ButtonSuaNguoiDung control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonSuaNguoiDung;
+        protected global::System.Web.UI.WebControls.Button SuaNV;
         
         /// <summary>
         /// GridViewNguoiDung control.

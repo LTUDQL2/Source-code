@@ -67,6 +67,15 @@ namespace TheRich.TheRichForm {
         protected global::System.Web.UI.WebControls.TextBox TextBoxGiaLe;
         
         /// <summary>
+        /// TextBoxGiaMua control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxGiaMua;
+        
+        /// <summary>
         /// TextBoxDonViTinh control.
         /// </summary>
         /// <remarks>
@@ -83,15 +92,6 @@ namespace TheRich.TheRichForm {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBoxTiLeGiam;
-        
-        /// <summary>
-        /// TextBoxGiaMua control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxGiaMua;
         
         /// <summary>
         /// DropDownListLSP control.

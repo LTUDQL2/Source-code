@@ -11,7 +11,7 @@ namespace BUS
     {
         public static DataTable GetSanPham()
         {
-            return SanPham_DAO.GetDataTabel();
+            return SanPham_DAO.GetDataTable();
         }
     }
 }

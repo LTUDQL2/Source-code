@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DAO;
 
-namespace DAO
+namespace BUS
 {
-    class LoaiSP_DAO
+    public class LoaiSP_BUS
     {
     }
 }

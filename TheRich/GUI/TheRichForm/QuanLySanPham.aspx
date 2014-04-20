@@ -32,6 +32,9 @@
         .auto-style13 {
             width: 35px;
         }
+        .auto-style14 {
+            width: 176px;
+        }
         </style>
 </head>
 <body>
@@ -44,7 +47,7 @@
             <td class="auto-style6">&nbsp;</td>
             
               <td class="auto-style5">&nbsp;</td>
-            <td class="auto-style3">&nbsp;</td>
+            <td class="auto-style14">&nbsp;</td>
 
               <td class="auto-style10">&nbsp;</td>
             <td class="auto-style9">
@@ -67,7 +70,7 @@
                 </div></td>
             
               <td class="auto-style5"><div align="Left" class="boiden">Giá Sỉ:</div></td>
-            <td class="auto-style3"><div align="left"> 
+            <td class="auto-style14"><div align="left"> 
                 <asp:TextBox ID="TextBoxGiaSi" runat="server" Width="172px"></asp:TextBox>
                 </div></td>
 
@@ -93,15 +96,14 @@
                 <asp:TextBox ID="TextBoxTenSanPham" runat="server" Width="172px"></asp:TextBox>
                 </div></td>
               <td class="auto-style5"><div align="Left" class="boiden">Giá Lẻ:</div></td>
-            <td class="auto-style3"><div align="left"> 
+            <td class="auto-style14"><div align="left"> 
                 <asp:TextBox ID="TextBoxGiaLe" runat="server" Width="172px"></asp:TextBox>
                 </div></td>
-
-               <td class="auto-style10">&nbsp;</td>
-            <td class="auto-style9">
-                &nbsp;</td>
-            <td class="auto-style13">
-                &nbsp;</td>
+              
+            <td class="auto-style7"><div align="Left" class="boiden">Giá Mua:</td>
+            <td class="auto-style6"><div align="left"> 
+                <asp:TextBox ID="TextBoxGiaMua" runat="server" Width="172px"></asp:TextBox>
+            </td>
    </tr>
          <tr class="boiden">
             <td class="auto-style8">&nbsp;</td>
@@ -110,28 +112,19 @@
                 <asp:TextBox ID="TextBoxDonViTinh" runat="server" Width="172px"></asp:TextBox>
                 </div></td>
              <td class="auto-style5"><div align="Left" class="boiden">Tỉ Lệ Giảm:</div></td>
-            <td class="auto-style3"><div align="left"> 
+            <td class="auto-style14"><div align="left"> 
                 <asp:TextBox ID="TextBoxTiLeGiam" runat="server" Width="172px"></asp:TextBox>
-                </div></td>
-   </tr>
-         <tr class="boiden">
-            <td class="auto-style8">&nbsp;</td>
-            <td class="auto-style7"><div align="Left" class="boiden">Giá Mua: </div></td>
-            <td class="auto-style6"><div align="left"> 
-                <asp:TextBox ID="TextBoxGiaMua" runat="server" Width="172px"></asp:TextBox>
                 </div></td>
              <td class="auto-style5"><div align="Left" class="boiden">Loại Sản Phẩm:</div></td>
             <td class="auto-style3"><div align="left"> 
                 <asp:DropDownList ID="DropDownListLSP" runat="server" Height="16px" Width="172px" AutoPostBack="True">
                 </asp:DropDownList>
                 </div></td>
-   </tr>          
-         <tr>
-             <td class="auto-style8" >&nbsp;</td>
-             <td class="auto-style7" ></td>
-             <td class="auto-style6"></td>
-         </tr>
-
+   </tr>
+         <tr class="boiden">
+            <td class="auto-style8">&nbsp;</td>
+            
+   </tr>  
          <tr>
              <td class="auto-style8" >
                  &nbsp;</td>
@@ -140,7 +133,7 @@
                  <asp:Button ID="ButtonXoa" runat="server" Text="Xóa" Width="121px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
                  <asp:Button ID="Button3" runat="server" Text="Sửa" Width="113px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" OnClick="Button3_Click" />
              </td>
-             <td></td>
+             <td class="auto-style14"></td>
              <td class="auto-style10"></td>
              <td class="auto-style9"></td>
 
@@ -152,7 +145,7 @@
              <td class="auto-style7" ></td>
              <td class="auto-style6"></td>
              <td></td>
-             <td></td>
+             <td class="auto-style14"></td>
              <td class="auto-style10">Tìm Kiếm:</td>
              <td class="auto-style9"> 
                 <asp:TextBox ID="TextBoxTimKiem" runat="server" Width="172px"></asp:TextBox>
