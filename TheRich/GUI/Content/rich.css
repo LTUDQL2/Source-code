@@ -1,0 +1,212 @@
+html{
+	background:#FFB6C1;
+}
+
+body{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+    background: #B64466;
+}
+
+a{
+	text-decoration:none;
+}
+
+#container{
+	-webkit-box-shadow: 0px 0px 5px 2px #a8c9db;
+	box-shadow: 0px 0px 5px 2px #a8c9db;
+	background:#fff;
+	margin:0 auto;
+	width:960px;
+}
+
+    #container .header {
+        background-color:red;
+        height:50px;
+    }
+
+        #container .header #login {
+            float:right;
+            width: 150px;
+        }
+
+            #container .header #login ul {
+            }
+
+                #container .header #login ul li {
+                     color: green;
+                     float: left;
+                     font-size: 15px;
+                     font-weight: bolder;
+                     margin: 0px 3px;
+                }
+
+    #container .menu {
+        background-color:pink;
+        height:40px;
+        width:960px;
+    }
+
+        .menu ul.topmenu {
+			margin:0 60px;
+		}
+		.menu ul li {
+			float: left;
+			font-family: "Times New Roman", Times, serif;
+			font-size: 12px;
+			line-height: 36px;
+			position: relative;
+			text-transform: uppercase;
+			text-align: center;
+		}	
+            
+          .menu ul.topmenu li a{
+				color:#DC143C;
+				display:block;
+				padding:0 20px;
+			}
+
+    #container #content {
+        
+    }
+
+        #container #content .left {
+            border: 2px solid red;
+            border-radius: 25px;
+            float:left;
+            width:680px;
+        }
+
+            #container #content .left table {
+                font-size: 12px;
+                line-height: 18px;
+            }
+
+            #container #content .left table tr th , td {
+                border-bottom: 2px solid yellow;
+                color: red;
+                font-weight: bold;
+                padding: 5px 10px 1px 3px;
+            }
+
+            #container #content .left li {
+                color:red;
+                float:left;
+                font-size:11px;
+                margin:10px 20px;
+                position:relative;
+                text-align:center;
+                width:155px;
+            }
+
+                #container #content .left li .detail {
+                    border: 2px solid red;
+                    border-radius: 22px;
+                    background:green;
+                    color: white;              
+                    display: none;
+                    font-size: 12px;
+                    line-height: 20px;
+                    margin-left: 100px;
+                    position:absolute;
+                    text-align: center;
+                    width: 150px;
+                    z-index:1;
+                }
+
+                #container #content .left li .detail .mini {
+                    display:block;
+                }
+
+                    #container #content .left li .detail p {
+                        color:blue;
+                        font-weight:bold;
+                        font-size:14px;
+                        margin-bottom:-20px;
+                        text-decoration:underline;
+                    }
+
+                #container #content .left li img {
+                    border: 2px solid green;
+                    border-radius: 15px;
+                    width:150px;
+                    height:120px;
+                }
+
+                    /*#container #content .left li:hover img
+                    {
+                        display: block;
+                    }*/
+
+                #container #content .left :hover .detail {
+                    display:block;
+                }
+
+                #container #content .left fieldset {
+                    float:left;
+                }
+
+                    #container #content .left fieldset legend {
+                        color: blue;
+                        font-size: 25px;
+                        font-weight: bolder;
+                        text-align: center;
+                    }
+
+                    #container #content .left input,#container #content .left p button  {
+                        border-radius: 6px;
+                        float:left;
+                        margin:0 30px 0 20px;
+                    }
+
+                    #container #content .left .reg input{
+                        width:60px;
+                        height:22px;    
+                    }
+
+                     #container #content .left ol{
+                         /*float:left;*/
+                         width:300px;
+                     }
+
+                         #container #content .left ol li label{
+                             color: red;
+                            font-size: 15px;
+                            font-weight: bold;
+                         }
+
+                        #container #content .left ol li input {
+                            margin: 3px 0px;
+                        }
+
+            #container #content .left #loginForm {
+            }
+
+                #container #content .left #loginForm p {
+                }
+
+                    #container #content .left #loginForm p a {
+                        
+                        text-decoration:underline;
+                    }
+
+                        #container #content .left #loginForm p a:hover {
+                            color:red;
+                        }
+
+            #container #content .left .social h2, #container #content .left .social .message-info{
+                display:none;
+            }
+
+
+        #container #content .right {
+            background-color:blue;
+            float:right;
+            width:280px;
+            height:300px;
+        }
+    
+    #container .footer {
+        background-color:orange;
+        height:50px;
+    }
