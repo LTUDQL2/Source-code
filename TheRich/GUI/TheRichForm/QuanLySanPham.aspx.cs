@@ -5,22 +5,39 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using BUS;
-namespace TheRich.TheRichForm
+using System.Data.SqlClient;
+using System.Data;
+
+namespace GUI.TheRichForm
 {
     public partial class QuanLySanPham : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack) // thuong thi phai su dung dieu kien nay`, con tai s thi b quen r
+            int check = 0;
+            if (!IsPostBack)
             {
-                ShowData();
+                switch (check) {
+                    case 0: ShowData();
+                        break;
+                    case 1: ShowDataInCate();
+                        break;
+                    default: break;
+                }
+                
             }
+        }
+
+        private void ShowDataInCate()
+        {
+            GridViewQuanLySanPham.DataSource = SanPham_BUS.GetSPTheoLoai(1,1); 
+            GridViewQuanLySanPham.DataBind();
         }
 
         private void ShowData()
         {
-            GridViewQuanLySanPham.DataSource = SanPham_BUS.GetSanPham(); //chi moi do du lieu nhung chua co show
-            GridViewQuanLySanPham.DataBind(); //Dong nay dung de load du~ lieu len tug dong trong GridView
+            GridViewQuanLySanPham.DataSource = SanPham_BUS.GetSanPham();
+            GridViewQuanLySanPham.DataBind();
         }
 
         protected void MultiView1_ActiveViewChanged(object sender, EventArgs e)
@@ -62,6 +79,21 @@ namespace TheRich.TheRichForm
         protected void GridViewQuanLySanPham_RowDeleted(object sender, GridViewDeletedEventArgs e)
         {
             
+        }
+
+        protected void ButtonTimKiem_Click(object sender, EventArgs e)
+        {
+            SqlConnection sqlConn = new SqlConnection("Data Source=kvhgiang-PC;Initial Catalog=TheRich;Integrated Security=True");
+            sqlConn.Open();
+            string commandText = "TimKiem2";
+            SqlCommand sqlCommand = new SqlCommand(commandText, sqlConn);
+            sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
+            sqlCommand.Parameters.AddWithValue("@TenSP", TextBoxTimKiem.Text);
+            SqlDataAdapter da = new SqlDataAdapter(sqlCommand);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            GridViewQuanLySanPham.DataSource = dt;
+            GridViewQuanLySanPham.DataBind();
         }
     }
 }

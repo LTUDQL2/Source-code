@@ -13,5 +13,10 @@ namespace BUS
         {
             return SanPham_DAO.GetDataTable();
         }
+
+        public static DataTable GetSPTheoLoai(int l, int ch)
+        {
+            return SanPham_DAO.GetSPTheoLoai(l, ch);
+        }
     }
 }

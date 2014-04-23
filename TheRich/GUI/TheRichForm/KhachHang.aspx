@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="KhachHang.aspx.cs" Inherits="TheRich.TheRichForm.KhachHang" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="KhachHang.aspx.cs" Inherits="GUI.TheRichForm.KhachHang" %>
 
 <!DOCTYPE html>
 
@@ -90,13 +90,14 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style2">
-
-                    &nbsp;</td>
-                <td class="auto-style2" colspan="5">
-
-                    &nbsp;</td>
+                <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style2" colspan="5">&nbsp;</td>
             </tr>
+            <tr>
+                <td class="auto-style2" colspan="4" align="right">Họ tên khách hàng:</td>
+                <td><asp:TextBox ID="TextBoxTimkiem" runat="server" Width="207px"></asp:TextBox></td>
+            </tr>
+            <tr><td class="auto-style2" colspan="5">&nbsp;</td></tr>
             <tr>
                 <td class="auto-style2">
 
@@ -108,6 +109,8 @@
                  <asp:Button ID="ButtonXoa" runat="server" Text="Xóa" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
 
                  <asp:Button ID="ButtonSua" runat="server" Text="Sửa" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
+
+                 <asp:Button ID="ButtonTimKiem" runat="server" OnClick="ButtonTimKiem_Click" Text="Tìm Kiếm" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
 
                 </td>
             </tr>

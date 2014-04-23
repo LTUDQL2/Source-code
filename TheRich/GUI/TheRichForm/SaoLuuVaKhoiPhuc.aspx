@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SaoLuuVaKhoiPhuc.aspx.cs" Inherits="TheRich.TheRichForm.SaoLuuVaKhoiPhuc" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SaoLuuVaKhoiPhuc.aspx.cs" Inherits="GUI.TheRichForm.SaoLuuVaKhoiPhuc" %>
 
 <!DOCTYPE html>
 

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="NhaCungCap.aspx.cs" Inherits="TheRich.TheRichForm.NhaCungCap" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="NhaCungCap.aspx.cs" Inherits="GUI.TheRichForm.NhaCungCap" %>
 
 <!DOCTYPE html>
 
@@ -27,26 +27,10 @@
             width: 110px;
             height: 26px;
         }
-        .auto-style9 {
-            width: 32px;
-            height: 26px;
-        }
-        .auto-style10 {
-            width: 75px;
-            height: 26px;
-        }
-        .auto-style11 {
-            width: 19px;
-            height: 26px;
-        }
         .auto-style12 {
             width: 71px;
         }
-        .auto-style13 {
-            height: 26px;
-            width: 71px;
-        }
-    </style>
+        </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -55,173 +39,38 @@
     <div align="center"><h1 style="color:#fff;background-color:#5b9bd5">Quản Lý Nhà Cung Cấp</h1></div>
     <div style="border-style:solid;border-width:1px;border-color:blue"><table>
         <tr>
-            <td class="auto-style12">
-
-                &nbsp;</td>
-            <td class="auto-style2">
-
-            </td>
-            <td class="auto-style1">
-
-                &nbsp;</td>
-            <td class="auto-style3">
-
-                &nbsp;</td>
-            <td class="auto-style5">
-
-                &nbsp;</td>
-            <td class="auto-style6">
-
-                &nbsp;</td>
-            <td class="auto-style1">
-
-                &nbsp;</td>
-            <td class="auto-style3">
-
-                &nbsp;</td>
-            <td class="auto-style1">
-
-                &nbsp;</td>
-            <td class="auto-style1">
-
-                &nbsp;</td>
+            <td class="auto-style12" colspan="10">&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style13">
-
-                &nbsp;</td>
-            <td class="auto-style7">
-
-                Tên Nhà Cung Cấp:</td>
+            <td class="auto-style7" colspan="4" align="right">Tên Nhà Cung Cấp:</td>
             <td class="auto-style8">
-
                 <asp:TextBox ID="TextBoxTenNhaCungCap" runat="server" Width="172px"></asp:TextBox>
-
             </td>
-            <td class="auto-style9">
-
-                </td>
-            <td class="auto-style10">
-
-                </td>
-            <td class="auto-style11">
-
-                </td>
-            <td class="auto-style8">
-
-                </td>
-            <td class="auto-style9">
-
-                </td>
-            <td class="auto-style8">
-
-                </td>
-            <td class="auto-style8">
-
-                &nbsp;</td>
+            <td class="auto-style8" colspan="5">&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style12">
-
-                &nbsp;</td>
-            <td class="auto-style2">
-
-                Địa Chỉ:</td>
+            <td class="auto-style2" colspan="4" align="right">Địa Chỉ:</td>
             <td class="auto-style1">
-
                 <asp:TextBox ID="TextBoxDiaChi" runat="server" Width="172px"></asp:TextBox>
-
             </td>
-            <td class="auto-style3">
-
-                &nbsp;</td>
-            <td class="auto-style5">
-
-                &nbsp;</td>
-            <td class="auto-style6">
-
-                &nbsp;</td>
-            <td class="auto-style1">
-
-                &nbsp;</td>
-            <td class="auto-style3">
-
-                &nbsp;</td>
-            <td class="auto-style1">
-
-                &nbsp;</td>
-            <td class="auto-style1">
-
-                &nbsp;</td>
+            <td class="auto-style3" colspan="5">&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style12">
-
-                &nbsp;</td>
-            <td class="auto-style2">
-
-                Số Điện Thoại:</td>
+            <td class="auto-style2" colspan="4" align="right">Số Điện Thoại:</td>
             <td class="auto-style1">
-
                 <asp:TextBox ID="TextBoxSoDienThoai" runat="server" Width="172px"></asp:TextBox>
-
             </td>
-            <td class="auto-style3">
-
-                &nbsp;</td>
-            <td class="auto-style5">
-
-                &nbsp;</td>
-            <td class="auto-style6">
-
-                &nbsp;</td>
-            <td class="auto-style1">
-
-                &nbsp;</td>
-            <td class="auto-style3">
-
-                &nbsp;</td>
-            <td class="auto-style1">
-
-                &nbsp;</td>
-            <td class="auto-style1">
-
-                &nbsp;</td>
+            <td class="auto-style1" colspan="5">&nbsp;</td>
         </tr>
+        <tr><td class="auto-style12" colspan="10">&nbsp;</td></tr>
         <tr>
-            <td class="auto-style12">
-
-                &nbsp;</td>
-            <td class="auto-style2">
-
-                &nbsp;</td>
-            <td class="auto-style1">
-
-                &nbsp;</td>
-            <td class="auto-style3">
-
-                &nbsp;</td>
-            <td class="auto-style5">
-
-                &nbsp;</td>
-            <td class="auto-style6">
-
-                &nbsp;</td>
-            <td class="auto-style1">
-
-                &nbsp;</td>
-            <td class="auto-style3">
-
-                &nbsp;</td>
-            <td class="auto-style1">
-
-                &nbsp;</td>
-            <td class="auto-style1">
-
-                &nbsp;</td>
+            <td class="auto-style2" colspan="4" align="right">Tìm kiếm theo tên:</td>
+            <td><asp:TextBox ID="TextBoxTimKiem" runat="server" Width="171px"></asp:TextBox></td>
+            <td class="auto-style12" colspan="5">&nbsp;</td>
         </tr>
+        <tr><td class="auto-style12" colspan="10">&nbsp;</td></tr>
         <tr>
-            <td class="auto-style12">
+            <td>
 
                  &nbsp;</td>
             <td class="auto-style2" colspan="4">
@@ -229,6 +78,7 @@
                  <asp:Button ID="ButtonThem" runat="server" Text="Thêm" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
                  <asp:Button ID="ButtonXoa" runat="server" Text="Xóa" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
                  <asp:Button ID="ButtonSua" runat="server" Text="Sửa" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
+                <asp:Button ID="Buttontimkiem" runat="server" OnClick="Button1_Click" Text="Tìm kiếm" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
 
             </td>
             <td class="auto-style6">
@@ -248,7 +98,7 @@
                 &nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style12">
+            <td>
 
                 &nbsp;</td>
             <td class="auto-style2">
@@ -280,7 +130,7 @@
                 &nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style12">
+            <td>
 
                 &nbsp;</td>
             <td class="auto-style2" colspan="8">
@@ -311,7 +161,7 @@
                 &nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style12">
+            <td>
 
                 &nbsp;</td>
             <td class="auto-style2" colspan="8">

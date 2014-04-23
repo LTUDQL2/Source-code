@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TheRich.TheRichForm {
+namespace GUI.TheRichForm {
     
     
     public partial class QuanLySanPham {
@@ -128,6 +128,15 @@ namespace TheRich.TheRichForm {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button3;
+        
+        /// <summary>
+        /// ButtonTimKiem control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonTimKiem;
         
         /// <summary>
         /// TextBoxTimKiem control.

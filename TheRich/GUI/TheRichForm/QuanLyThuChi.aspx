@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="QuanLyThuChi.aspx.cs" Inherits="TheRich.TheRichForm.QuanLyThuChi" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="QuanLyThuChi.aspx.cs" Inherits="GUI.TheRichForm.QuanLyThuChi" %>
 
 <!DOCTYPE html>
 

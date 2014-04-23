@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TheRich.TheRichForm {
+namespace GUI.TheRichForm {
     
     
     public partial class NguoiDung {
@@ -112,6 +112,15 @@ namespace TheRich.TheRichForm {
         protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
         
         /// <summary>
+        /// TextBoxTimkiem control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxTimkiem;
+        
+        /// <summary>
         /// ButtonThemNguoiDung control.
         /// </summary>
         /// <remarks>
@@ -137,6 +146,15 @@ namespace TheRich.TheRichForm {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button ButtonSuaNguoiDung;
+        
+        /// <summary>
+        /// ButtonTimKiem control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonTimKiem;
         
         /// <summary>
         /// GridViewNguoiDung control.

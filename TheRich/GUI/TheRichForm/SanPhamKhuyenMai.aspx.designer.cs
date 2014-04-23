@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TheRich.TheRichForm {
+namespace GUI.TheRichForm {
     
     
     public partial class SanPhamKhuyenMai {

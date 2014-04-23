@@ -1,9 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="QuanLySanPham.aspx.cs" Inherits="TheRich.TheRichForm.QuanLySanPham" %>
+﻿<%@ Page Language="C#"  AutoEventWireup="true" CodeBehind="QuanLySanPham.aspx.cs" Inherits="GUI.TheRichForm.QuanLySanPham" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head>
     <title></title>
     <style type="text/css">
         .auto-style3 {
@@ -128,12 +128,13 @@
          <tr>
              <td class="auto-style8" >
                  &nbsp;</td>
-             <td class="auto-style4" colspan="3" >
+             <td class="auto-style4" colspan="4" >
                  <asp:Button ID="ButtonThem" runat="server" Text="Thêm" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
                  <asp:Button ID="ButtonXoa" runat="server" Text="Xóa" Width="121px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
                  <asp:Button ID="Button3" runat="server" Text="Sửa" Width="113px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" OnClick="Button3_Click" />
+                 <asp:Button ID="ButtonTimKiem" runat="server" OnClick="ButtonTimKiem_Click" Text="Tìm kiếm"  Width="113px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White"  />
              </td>
-             <td class="auto-style14"></td>
+             <td class="auto-style14">&nbsp;</td>
              <td class="auto-style10"></td>
              <td class="auto-style9"></td>
 

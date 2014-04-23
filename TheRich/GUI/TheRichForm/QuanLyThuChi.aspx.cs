@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace TheRich.TheRichForm
+namespace GUI.TheRichForm
 {
     public partial class QuanLyThuChi : System.Web.UI.Page
     {

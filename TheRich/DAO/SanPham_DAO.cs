@@ -20,5 +20,34 @@ namespace DAO
             DataTable dt = dataProvider.GetDataTable();
             return dt;
         }
+
+        public static DataTable GetSPTheoLoai(int l, int ch)
+        {
+            DataTable dt = new DataTable();
+            SqlConnection cn;
+            cn = DataProvider.ConnectionData();
+
+
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = "SelectSPTheoLoai";
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Connection = cn;
+
+            SqlParameter para;
+            para = new SqlParameter("maLoai", SqlDbType.Int);
+            para.Direction = ParameterDirection.Input;
+            para.Value = l;
+            cmd.Parameters.Add(para);
+
+            para = new SqlParameter("maCH", SqlDbType.Int);
+            para.Direction = ParameterDirection.Input;
+            para.Value = ch;
+            cmd.Parameters.Add(para);
+
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            cn.Close();
+            return dt;
+        }
     }
 }

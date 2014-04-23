@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="NguoiDung.aspx.cs" Inherits="TheRich.TheRichForm.NguoiDung" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="NguoiDung.aspx.cs" Inherits="GUI.TheRichForm.NguoiDung" %>
 
 <!DOCTYPE html>
 
@@ -54,6 +54,10 @@
         }
         .auto-style39 {
             width: 26px;
+        }
+        .auto-style40 {
+            width: 26px;
+            height: 23px;
         }
         </style>
 </head>
@@ -129,6 +133,13 @@
         <tr>            
             <td class="auto-style39" colspan="4">&nbsp;</td>
         </tr>
+        <tr>            
+            <td align="right" colspan="2">Tên người dùng: </td>
+            <td class="auto-style39" colspan="2"><asp:TextBox ID="TextBoxTimkiem" runat="server" Width="160px"></asp:TextBox></td>
+        </tr>
+        <tr>            
+            <td class="auto-style40" colspan="4"></td>
+        </tr>
         <tr>
             <td class="auto-style37">
 
@@ -138,12 +149,13 @@
                  <asp:Button ID="ButtonThemNguoiDung" runat="server" Text="Thêm Người Dùng" Width="133px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" OnClick="ButtonThemNguoiDung_Click" />
                  <asp:Button ID="ButtonXoaNguoiDung" runat="server" Text="Xóa Người Dùng" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
                  <asp:Button ID="ButtonSuaNguoiDung" runat="server" Text="Sửa Người Dùng" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
+                <asp:Button ID="ButtonTimKiem" runat="server" OnClick="ButtonTimKiem_Click" Text="Tìm Kiếm" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
              </td>
             </tr>
         <tr>
             <td class="auto-style5" colspan="4">
 
-                <asp:GridView ID="GridViewNguoiDung" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" Width="794px">
+                <asp:GridView ID="GridViewNguoiDung" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" Width="794px" PageSize="2">
                     <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
                     <Columns>
                         <asp:BoundField HeaderText="Họ Tên" DataField="HoTen" />
@@ -160,6 +172,7 @@
                     <EditRowStyle BackColor="#999999" />
                     <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
                     <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                    <PagerSettings FirstPageText="First" LastPageText="Last" NextPageText="Next" PreviousPageText="Prev" />
                     <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
                     <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
                     <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />

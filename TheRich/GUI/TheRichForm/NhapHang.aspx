@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="NhapHang.aspx.cs" Inherits="TheRich.TheRichForm.NhapHang" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="NhapHang.aspx.cs" Inherits="GUI.TheRichForm.NhapHang" %>
 
 <!DOCTYPE html>
 
