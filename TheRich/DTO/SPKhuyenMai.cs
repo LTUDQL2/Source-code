@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    class SPKhuyenMai
+    public class SPKhuyenMai
     {
         private int id_SPKM;
         public int Id_SPKM {

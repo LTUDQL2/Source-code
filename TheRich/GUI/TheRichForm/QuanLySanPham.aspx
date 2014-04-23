@@ -8,6 +8,7 @@
     <style type="text/css">
         .auto-style3 {
             width: 219px;
+            height: 29px;
         }
         .auto-style4 {
         }
@@ -34,6 +35,26 @@
         }
         .auto-style14 {
             width: 176px;
+        }
+        .auto-style15 {
+            width: 301px;
+            height: 29px;
+        }
+        .auto-style16 {
+            width: 267px;
+            height: 29px;
+        }
+        .auto-style17 {
+            width: 209px;
+            height: 29px;
+        }
+        .auto-style18 {
+            width: 363px;
+            height: 29px;
+        }
+        .auto-style19 {
+            width: 176px;
+            height: 29px;
         }
         </style>
 </head>
@@ -77,6 +98,7 @@
               <td class="auto-style10"><div align="Left" class="boiden">Nhà Cung Cấp:</div></td>
             <td class="auto-style9">
                 <asp:DropDownList ID="DropDownListNCC" runat="server" Height="16px" Width="172px" OnSelectedIndexChanged="DropDownListNCC_SelectedIndexChanged">
+                    <asp:ListItem>TenNCC</asp:ListItem>
                 </asp:DropDownList>
               </td>
 
@@ -106,18 +128,19 @@
             </td>
    </tr>
          <tr class="boiden">
-            <td class="auto-style8">&nbsp;</td>
-            <td class="auto-style7"><div align="Left" class="boiden">Đơn Vị Tính: </div></td>
-            <td class="auto-style6"><div align="left"> 
+            <td class="auto-style15"></td>
+            <td class="auto-style16"><div align="Left" class="boiden">Đơn Vị Tính: </div></td>
+            <td class="auto-style17"><div align="left"> 
                 <asp:TextBox ID="TextBoxDonViTinh" runat="server" Width="172px"></asp:TextBox>
                 </div></td>
-             <td class="auto-style5"><div align="Left" class="boiden">Tỉ Lệ Giảm:</div></td>
-            <td class="auto-style14"><div align="left"> 
+             <td class="auto-style18"><div align="Left" class="boiden">Tỉ Lệ Giảm:</div></td>
+            <td class="auto-style19"><div align="left"> 
                 <asp:TextBox ID="TextBoxTiLeGiam" runat="server" Width="172px"></asp:TextBox>
                 </div></td>
-             <td class="auto-style5"><div align="Left" class="boiden">Loại Sản Phẩm:</div></td>
+             <td class="auto-style18"><div align="Left" class="boiden">Loại Sản Phẩm:</div></td>
             <td class="auto-style3"><div align="left"> 
                 <asp:DropDownList ID="DropDownListLSP" runat="server" Height="16px" Width="172px" AutoPostBack="True">
+                    <asp:ListItem>LoaiSanPham</asp:ListItem>
                 </asp:DropDownList>
                 </div></td>
    </tr>
@@ -129,8 +152,8 @@
              <td class="auto-style8" >
                  &nbsp;</td>
              <td class="auto-style4" colspan="3" >
-                 <asp:Button ID="ButtonThem" runat="server" Text="Thêm" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
-                 <asp:Button ID="ButtonXoa" runat="server" Text="Xóa" Width="121px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
+                 <asp:Button ID="ButtonThem" runat="server" Text="Thêm" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" OnClick="ButtonThem_Click" />
+                 <asp:Button ID="ButtonXoa" runat="server" Text="Xóa" Width="121px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" OnClick="ButtonXoa_Click" />
                  <asp:Button ID="Button3" runat="server" Text="Sửa" Width="113px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" OnClick="Button3_Click" />
              </td>
              <td class="auto-style14"></td>
@@ -160,7 +183,7 @@
                   &nbsp;</td>
 
               <td colspan="6">
-								<asp:GridView ID="GridViewQuanLySanPham" runat="server" AutoGenerateColumns="False" CellPadding="3" ForeColor="Black" GridLines="Vertical" Height="156px" Width="985px" AllowPaging="True" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" OnPageIndexChanging="GridViewQuanLySanPham_PageIndexChanging" PageSize="2" OnRowDeleted="GridViewQuanLySanPham_RowDeleted" OnRowDeleting="GridViewQuanLySanPham_RowDeleting" OnRowUpdating="GridViewQuanLySanPham_RowUpdating">
+								<asp:GridView ID="GridViewQuanLySanPham" runat="server" AutoGenerateColumns="False" CellPadding="3" ForeColor="Black" GridLines="Vertical" Height="156px" Width="985px" AllowPaging="True" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" OnPageIndexChanging="GridViewQuanLySanPham_PageIndexChanging" PageSize="2" >
                                     <AlternatingRowStyle BackColor="#CCCCCC" />
                                     <Columns>
                                         <asp:BoundField HeaderText="Mã Sản Phẩm" DataField="MaSP" />

@@ -57,13 +57,13 @@
                 &nbsp;</td>
             <td class="auto-style5">
 
-                Mã Sản Phẩm Khuyến Mãi: </td>
+                Tên Sản Phẩm Khuyến Mãi: </td>
             <td class="auto-style6">
 
                 &nbsp;</td>
             <td class="auto-style1">
 
-                <asp:TextBox ID="TextBoxMaSanPhamKhuyenMai" runat="server" Width="172px"></asp:TextBox>
+                <asp:TextBox ID="TextBoxTenSanPhamKhuyenMai" runat="server" Width="172px"></asp:TextBox>
 
             </td>
             <td class="auto-style4">
@@ -143,9 +143,9 @@
                 &nbsp;</td>
             <td class="auto-style3" colspan="3">
 
-                 <asp:Button ID="ButtonThem" runat="server" Text="Thêm" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
-                 <asp:Button ID="ButtonXoa" runat="server" Text="Xóa" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
-                 <asp:Button ID="ButtonSua" runat="server" Text="Sửa" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
+                 <asp:Button ID="ButtonThem" runat="server" Text="Thêm" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" OnClick="ButtonThem_Click" />
+                 <asp:Button ID="ButtonXoa" runat="server" Text="Xóa" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" OnClick="ButtonXoa_Click" />
+                 <asp:Button ID="ButtonSua" runat="server" Text="Sửa" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" OnClick="ButtonSua_Click" />
 
             </td>
             <td class="auto-style4">

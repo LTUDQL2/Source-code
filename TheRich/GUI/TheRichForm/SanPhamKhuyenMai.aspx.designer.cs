@@ -22,13 +22,13 @@ namespace TheRich.TheRichForm {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// TextBoxMaSanPhamKhuyenMai control.
+        /// TextBoxTenSanPhamKhuyenMai control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxMaSanPhamKhuyenMai;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxTenSanPhamKhuyenMai;
         
         /// <summary>
         /// TextBoxSoLuong control.
