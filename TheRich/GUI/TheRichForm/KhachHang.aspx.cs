@@ -21,5 +21,19 @@ namespace TheRich.TheRichForm
             GridView1.DataSource = KhachHang_BUS.SelectAllData();
             GridView1.DataBind();
         }
+
+        protected void ButtonThem_Click(object sender, EventArgs e)
+        {
+            DTO.KhachHang n = new DTO.KhachHang();
+
+            n.HoTen = TextBoxHoTen.Text;
+
+            //n.NgaySinh = TextBox1.Tostring();
+            n.GioiTinh = DropDownList2.Text;
+            n.DiaChi = TextBoxDiaChi.Text;
+            n.SDT = TextBoxSoDienThoai.Text;
+
+            KhachHang_BUS.Them(n);
+        }
     }
 }

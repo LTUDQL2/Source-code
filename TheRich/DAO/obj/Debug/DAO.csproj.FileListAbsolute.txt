@@ -5,3 +5,10 @@ C:\Users\kvhgiang\Documents\GitHub\Source-code\TheRich\DAO\obj\Debug\DAO.dll
 C:\Users\kvhgiang\Documents\GitHub\Source-code\TheRich\DAO\obj\Debug\DAO.pdb
 C:\Users\kvhgiang\Documents\GitHub\Source-code\TheRich\DAO\bin\Debug\DTO.dll
 C:\Users\kvhgiang\Documents\GitHub\Source-code\TheRich\DAO\bin\Debug\DTO.pdb
+C:\Users\Thanh Huyen\Desktop\Source-code\TheRich\DAO\bin\Debug\DAO.dll
+C:\Users\Thanh Huyen\Desktop\Source-code\TheRich\DAO\bin\Debug\DAO.pdb
+C:\Users\Thanh Huyen\Desktop\Source-code\TheRich\DAO\bin\Debug\DTO.dll
+C:\Users\Thanh Huyen\Desktop\Source-code\TheRich\DAO\bin\Debug\DTO.pdb
+C:\Users\Thanh Huyen\Desktop\Source-code\TheRich\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Thanh Huyen\Desktop\Source-code\TheRich\DAO\obj\Debug\DAO.dll
+C:\Users\Thanh Huyen\Desktop\Source-code\TheRich\DAO\obj\Debug\DAO.pdb

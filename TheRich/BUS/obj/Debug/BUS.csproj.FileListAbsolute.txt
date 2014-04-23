@@ -7,3 +7,12 @@ C:\Users\kvhgiang\Documents\GitHub\Source-code\TheRich\BUS\bin\Debug\DAO.dll
 C:\Users\kvhgiang\Documents\GitHub\Source-code\TheRich\BUS\bin\Debug\DTO.dll
 C:\Users\kvhgiang\Documents\GitHub\Source-code\TheRich\BUS\bin\Debug\DAO.pdb
 C:\Users\kvhgiang\Documents\GitHub\Source-code\TheRich\BUS\bin\Debug\DTO.pdb
+C:\Users\Thanh Huyen\Desktop\Source-code\TheRich\BUS\bin\Debug\BUS.dll
+C:\Users\Thanh Huyen\Desktop\Source-code\TheRich\BUS\bin\Debug\BUS.pdb
+C:\Users\Thanh Huyen\Desktop\Source-code\TheRich\BUS\bin\Debug\DAO.dll
+C:\Users\Thanh Huyen\Desktop\Source-code\TheRich\BUS\bin\Debug\DTO.dll
+C:\Users\Thanh Huyen\Desktop\Source-code\TheRich\BUS\bin\Debug\DAO.pdb
+C:\Users\Thanh Huyen\Desktop\Source-code\TheRich\BUS\bin\Debug\DTO.pdb
+C:\Users\Thanh Huyen\Desktop\Source-code\TheRich\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\Thanh Huyen\Desktop\Source-code\TheRich\BUS\obj\Debug\BUS.dll
+C:\Users\Thanh Huyen\Desktop\Source-code\TheRich\BUS\obj\Debug\BUS.pdb

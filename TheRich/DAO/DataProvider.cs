@@ -27,7 +27,7 @@ namespace DAO
         }
 
         public static SqlConnection ConnectionData() {
-            string cnStr = "Data Source=kvhgiang-PC;Initial Catalog=TheRich;Integrated Security=True";
+            string cnStr = "Data Source=Huyen;Initial Catalog=TheRich;Integrated Security=True";
             SqlConnection cn = new SqlConnection(cnStr);
             cn.Open();
             return cn;

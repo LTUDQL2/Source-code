@@ -226,9 +226,9 @@
                  &nbsp;</td>
             <td class="auto-style2" colspan="4">
 
-                 <asp:Button ID="ButtonThem" runat="server" Text="Thêm" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
-                 <asp:Button ID="ButtonXoa" runat="server" Text="Xóa" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
-                 <asp:Button ID="ButtonSua" runat="server" Text="Sửa" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" />
+                 <asp:Button ID="ButtonThem" runat="server" Text="Thêm" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" OnClick="ButtonThem_Click" />
+                 <asp:Button ID="ButtonXoa" runat="server" Text="Xóa" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" OnClick="ButtonXoa_Click" />
+                 <asp:Button ID="ButtonSua" runat="server" Text="Sửa" Width="114px" BackColor="#5B9BD5" BorderColor="#0066FF" ForeColor="White" OnClick="ButtonSua_Click" />
 
             </td>
             <td class="auto-style6">
@@ -285,7 +285,7 @@
                 &nbsp;</td>
             <td class="auto-style2" colspan="8">
 
-                <asp:GridView ID="GridViewNhaCungCap" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" Height="109px" Width="785px">
+                <asp:GridView ID="GridViewNhaCungCap" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" Height="109px" Width="785px" OnSelectedIndexChanged="GridViewNhaCungCap_SelectedIndexChanged">
                     <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
                     <Columns>
                         <asp:BoundField HeaderText="Tên Nhà Cung Cấp" DataField="TenNCC" />

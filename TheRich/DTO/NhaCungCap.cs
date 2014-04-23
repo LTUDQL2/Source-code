@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    class NhaCungCap
+  public  class NhaCungCap
     {
         private int id_NCC;
         public int Id_NDD {
